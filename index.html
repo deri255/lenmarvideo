@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon en la Región de Galar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<style>
+    @charset "utf-8";
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #D3C0EB;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #6A4C9C;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    main {
+        width: 90%;
+        margin: 20px auto;
+        background: #F2E8FF;
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+    }
+    .speech-box {
+        background-color: #6A4C9C;
+        color: white;
+        padding: 15px;
+        border-radius: 15px;
+        margin: 20px 0;
+        position: relative;
+        font-style: italic;
+        text-align: center;
+    }
+    .speech-box::before {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 20px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent #6A4C9C transparent;
+    }
+    video {
+        width: 100%;
+        border-radius: 10px;
+    }
+    h1 {
+        text-align: center;
+        color: #4A0080;
+    }
+    .audio-container {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    audio {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+    }
+    .article {
+        text-align: justify;
+    }
+    footer {
+        background-color: #8A6BBE;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        bottom: 0;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+</style>
+<body>
+    <header>Pokémon en la Región de Galar</header>
+    <main>
+        <video controls poster="poster.jpg">
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <h1>Los Pokémon más emblemáticos de Galar</h1>
+        <div class="article">
+            <div class="audio-container">
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            <p>Galar es una región llena de sorpresas y grandes desafíos. Desde su inspiración en el Reino Unido hasta la aparición de formas regionales únicas, los Pokémon de esta región destacan por su historia y diseño.</p>
+            <p>Algunos de los Pokémon más icónicos son Cinderace, con su asombrosa habilidad en combate, y Corviknight, un majestuoso Pokémon volador que es esencial en el transporte de Galar.</p>
+            <div class="speech-box">
+                <p>Entrenar en Galar no solo implica enfrentarse a combates desafiantes, sino también recorrer paisajes impresionantes y descubrir nuevas formas de Pokémon adaptadas a su entorno. Desde la majestuosidad de los Pokémon Dragón en la Torre Batalla hasta la valentía de los líderes de gimnasio, cada rincón de esta región está lleno de aventuras por vivir.</p>
+                <p>Además, la región de Galar es conocida por sus vastas áreas silvestres, donde los entrenadores pueden encontrar una gran variedad de Pokémon en su hábitat natural. Estas áreas ofrecen una experiencia única de exploración y captura, permitiendo a los entrenadores fortalecer sus equipos y descubrir nuevas estrategias de combate.</p>
+                <p>La cultura y las tradiciones de Galar también juegan un papel importante en la vida de los entrenadores. Desde los festivales locales hasta las competiciones de cocina con Curry, hay muchas actividades que enriquecen la experiencia de vivir y entrenar en esta región. Los entrenadores pueden aprender mucho sobre la historia y las costumbres de Galar mientras se embarcan en su viaje.</p>
+                <p>Finalmente, la Liga Pokémon de Galar es una de las más prestigiosas del mundo. Con desafíos únicos y líderes de gimnasio carismáticos, cada batalla es una oportunidad para demostrar habilidades y crecer como entrenador. La emoción de competir en los estadios llenos de aficionados es una experiencia inolvidable que motiva a los entrenadores a dar lo mejor de sí mismos.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+</body>
+</html>
